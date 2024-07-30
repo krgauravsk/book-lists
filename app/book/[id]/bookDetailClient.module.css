@@ -1,0 +1,29 @@
+.bookDetailClientContainer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px;
+  border-radius: 5px;
+}
+.bookDetailClientTitle {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: white;
+}
+.bookDetailImg {
+  display: block;
+  margin-bottom: 10px;
+}
+.bookDetailText {
+  margin: 0;
+  color: cadetblue;
+  display: flex;
+  gap: 10px;
+}
+.bookDetailTextLink {
+  display: block;
+  margin-top: 10px;
+  color: #0070f3;
+}
+.bookDetailTextLink:hover {
+  text-decoration: underline;
+}

@@ -228,3 +228,26 @@
     transform: rotate(0deg);
   }
 }
+.headerBooksTitle {
+  font-size: 2em;
+  font-family: cursive;
+  background: linear-gradient(141deg, #e1f5fe 0%, #81d4fa 51%, #4fc3f7 75%);
+  padding: 10px;
+  z-index: 1111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.booksBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 10em;
+  margin-bottom: 8em;
+}
+.booksLists {
+  flex: 1 0 21%;
+  margin: 1%;
+}
